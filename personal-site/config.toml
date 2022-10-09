@@ -1,4 +1,4 @@
-baseURL = 'http://cpsiff.github.io/'
+baseURL = 'https://cpsiff.github.io/'
 languageCode = 'en-us'
 title = 'Carter Sifferman'
 publishdir = "cpsiff.github.io"
