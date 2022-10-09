@@ -1,0 +1,3 @@
+[submodule "cpsiff.github.io"]
+	path = cpsiff.github.io
+	url = git@github.com:cpsiff/cpsiff.github.io.git
