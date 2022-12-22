@@ -50,16 +50,6 @@ body {
   code {
     @include hyphens(manual);
   }
-  a {
-    color: $color-text;
-    text-decoration: none;
-
-    @include underline(5px, $color-text);
-
-    &:hover {
-      background-image: linear-gradient(transparent, transparent 4px, $color-link 4px, $color-link);
-    }
-  }
   a.icon {
     background: none;
 
@@ -128,11 +118,11 @@ body {
   }
 }
 
-@media (min-width: 480px) {
-  p {
-    text-align: justify;
-  }
-}
+// @media (min-width: 480px) {
+//   p {
+//     text-align: justify;
+//   }
+// }
 
 @import "partial/header";
 @import "partial/post/actions_desktop";

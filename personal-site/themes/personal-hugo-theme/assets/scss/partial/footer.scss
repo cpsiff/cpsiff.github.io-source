@@ -8,6 +8,12 @@
   text-align: center;
   font-size: 11px;
 
+  // color: $color-accent-1;
+  letter-spacing: .01em;
+  font-weight: 200;
+  font-style: normal;
+  font-size: .8rem;
+
   ul {
     margin: 0;
     padding: 0;
@@ -33,8 +39,8 @@
     }
   }
   a {
-    color: $color-meta;
-    text-decoration: underline;
+    color: $color-link;
+    text-decoration: none;
     background-image: none;
   }
   a:hover {
